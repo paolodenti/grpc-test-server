@@ -1,0 +1,8 @@
+grpc:
+  server:
+    port: ${GRPC_PORT:9090}
+
+logging:
+  level:
+    root: INFO
+    com.github.paolodenti: DEBUG
